@@ -95,6 +95,9 @@
   <!-- Stunner -->
   <inherits name="org.kie.workbench.common.stunner.project.StunnerProjectClient"/>
   <inherits name="org.kie.workbench.common.stunner.bpmn.StunnerBpmnProjectClient"/>
+  <inherits name="org.kie.workbench.common.stunner.bpmn.integration.StunnerJBPMDesignerIntegrationShared"/>
+  <inherits name="org.kie.workbench.common.stunner.bpmn.integration.StunnerJBPMDesignerIntegrationAPI"/>
+  <inherits name="org.kie.workbench.common.stunner.bpmn.integration.StunnerJBPMDesignerIntegrationClient"/>
 
   <!-- Specify the paths for translatable code -->
   <source path='client'/>
